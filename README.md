@@ -1,4 +1,4 @@
-## EX 09 Implementation-of-Erosion-and-Dilation
+## Implementation-of-Erosion-and-Dilation
 ### Aim
 To implement Erosion and Dilation using Python and OpenCV.
 ### Software Required
@@ -23,9 +23,10 @@ Dilate the Image
 
  
 ### Program:
+
 ```
-NAME: ADHITHYA PERUMAL D
-REG.NO: 212222230007
+Developed By : ADHITHYA PERUMAL D
+Register Number : 212222230007
 ```
 
 ##### Import the necessary packages
@@ -38,7 +39,7 @@ import matplotlib.pyplot as plt
 ``` Python
 img = np.zeros((100,400),dtype = 'uint8')
 font = cv2.FONT_HERSHEY_SIMPLEX
-cv2.putText(img ,'DEVA',(60,70),font,2,(255),5,cv2.LINE_AA)
+cv2.putText(img ,'Lifestyle',(60,70),font,2,(255),5,cv2.LINE_AA)
 plt.imshow(img)
 plt.axis('off')
 ```
@@ -65,14 +66,20 @@ plt.axis('off')
 
 ```
 ### Output:
+
 #### Display the input Image
-![Screenshot 2024-04-23 104018](https://github.com/DEVADARSHAN2/erosion--dilation/assets/119432150/ff10d840-16c9-4df8-9c4a-ce0f6d6853b9)
+![image](https://github.com/JoyceBeulah/erosion--dilation/assets/118343698/ae1f4652-8969-479e-a8aa-a8ad3e782858)
+
 
 #### Display the Eroded Image
-![Screenshot 2024-04-23 104039](https://github.com/DEVADARSHAN2/erosion--dilation/assets/119432150/6351ee9e-438e-4c56-8b63-0f710fd9f589)
+
+![image](https://github.com/JoyceBeulah/erosion--dilation/assets/118343698/027a641b-bce2-4bef-9b10-0a60a1152116)
+
 
 #### Display the Dilated Image
-![Screenshot 2024-04-23 104053](https://github.com/DEVADARSHAN2/erosion--dilation/assets/119432150/6aa3a3d2-4cc4-49ed-8bb6-6b33ea492b5a)
+
+![image](https://github.com/JoyceBeulah/erosion--dilation/assets/118343698/776a6718-a655-4167-b107-e43c0364b99c)
+
 
 ## Result
 Thus the generated text image is eroded and dilated using python and OpenCV.
